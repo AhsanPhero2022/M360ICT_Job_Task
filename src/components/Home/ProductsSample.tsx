@@ -14,6 +14,8 @@ const ProductsSample: React.FC = () => {
     skip: (currentPage - 1) * pageSize,
   });
 
+  console.log(data);
+
   useEffect(() => {
     refetch();
   }, [currentPage, pageSize, refetch]);
