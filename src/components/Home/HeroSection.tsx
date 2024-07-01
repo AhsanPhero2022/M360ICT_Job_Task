@@ -1,3 +1,4 @@
+import { Button } from "antd";
 import backgroundVideo from "../../assets/images/banner_video.mp4";
 import search from "../../assets/images/landSearch.png";
 
@@ -23,12 +24,12 @@ const HeroSection = () => {
             properties.
           </p>
           <div>
-            <button className="bg-[#005EAE] border border-[#005EAE] hover:bg-[#005EAE] hover:border-[#005EAE] text-white px-4 py-2 flex justify-center items-center rounded-[8px]">
+            <Button type="default" style={{ padding: 8 }}>
               <span>
                 <img src={search} alt="" />
               </span>
-              <span className="ml-1 md:text-lg">Find Property</span>
-            </button>
+              <span className="ml-1 ">Find Products</span>
+            </Button>
           </div>
         </div>
       </div>
