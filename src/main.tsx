@@ -10,8 +10,10 @@ import { Toaster } from "sonner";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider store={store}>
-      <RouterProvider router={router} />
-      <Toaster />
+      <div className="max-w-7xl">
+        <RouterProvider router={router} />
+        <Toaster />
+      </div>
     </Provider>
   </React.StrictMode>
 );

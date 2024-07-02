@@ -1,10 +1,12 @@
-## React + TypeScript + Vite
+# React + TypeScript + Vite
 
-# M360ICTTask
+## M360ICTTask
 
 ### Project overview
 
--- In this project, first of all, you will see a landing page for understanding of the company and the employees. Then you will see a list of products in the navbar. Then you will able to change routes and see the products items, categories and also you can update the products information
+-- In this project, first of all, you will see a landing page for understanding of the company and the employees. Then you will see a list of products in the navbar. Then you will be able to change routes and see the products items, categories and also you can update the products information
+
+## Live Link: https://comforting-kitten-981c4f.netlify.app
 
 ## Installation
 
@@ -41,5 +43,3 @@
 - React Hook Form
 - Redux Toolkit
 - RTK Query
-
-## Live Link:

@@ -27,7 +27,7 @@ const OurStory = () => {
           </div>
 
           {/* Card */}
-          <div className="absolute top-[313px] left-[50%] transform lg:left-[310px] xl:left-[612px] -translate-x-1/2 lg:-translate-x-0 w-full md:w-[592px] bg-[#ECF5FF] p-[32px]">
+          <div className="absolute top-[313px] left-[50%] transform lg:left-[315px] lg:-translate-x-0 w-full md:w-[592px] bg-[#ECF5FF] p-[32px]">
             <div className="flex items-center space-x-[16px] mb-[16px]">
               <div className="w-[51px] border-t-[4px] border-[#EE6611]"></div>
               <div className="text-[#EE6611] font-poppins text-[18px] font-semibold leading-[21.6px]">
