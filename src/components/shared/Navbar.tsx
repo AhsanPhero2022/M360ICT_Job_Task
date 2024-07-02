@@ -10,6 +10,11 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
+        <Link to="/allProducts">
+          <Button>All Products</Button>
+        </Link>
+      </li>
+      <li>
         <Link to="/categoryList">
           <Button>Category List</Button>
         </Link>

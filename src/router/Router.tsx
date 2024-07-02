@@ -6,6 +6,8 @@ import EditProduct from "../components/pages/EditeProduct";
 import CategoryList from "../components/pages/Categories/CategoryList";
 import CategoryProducts from "../components/pages/Categories/CategoryProducts";
 import LoginPage from "../components/shared/Login";
+import ProductsSample from "../components/pages/AllProducts/ProductsSample";
+import Register from "../components/shared/Register";
 
 export const router = createBrowserRouter([
   {
@@ -15,6 +17,10 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/allProducts",
+        element: <ProductsSample />,
       },
       {
         path: "/product/:id",
@@ -35,6 +41,10 @@ export const router = createBrowserRouter([
       {
         path: "/login",
         element: <LoginPage />,
+      },
+      {
+        path: "/register",
+        element: <Register />,
       },
     ],
   },

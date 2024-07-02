@@ -86,7 +86,7 @@ const ProductsSample: React.FC = () => {
 
   return (
     <div className="p-4 overflow-x-auto">
-      <h1 className="text-2xl font-bold mb-4">Product List</h1>
+      <h1 className="text-2xl font-bold mb-4">All Products List</h1>
       <Table
         dataSource={data?.products}
         columns={columns}

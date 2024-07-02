@@ -1,17 +1,20 @@
 import HeroSection from "./HeroSection";
-import ProductsSample from "../pages/AllProducts/ProductsSample";
 import Testimonials from "./Testimonials";
-import OtherServices from "./OthersService";
+
 import OurTeam from "./OurTeam";
+import OurStory from "./OurStory";
+import Users from "./Users";
+import OtherServices from "./OthersService";
 
 const Home = () => {
   return (
     <div>
       <HeroSection />
-      <OtherServices />
+      <Users />
+      <OurStory />
       <OurTeam />
-      <ProductsSample />
       <Testimonials />
+      <OtherServices />
     </div>
   );
 };
