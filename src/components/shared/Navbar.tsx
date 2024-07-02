@@ -10,13 +10,8 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link to="/">
-          <Button>Home</Button>
-        </Link>
-      </li>
-      <li>
-        <Link to="/">
-          <Button>Home</Button>
+        <Link to="/categoryList">
+          <Button>Category List</Button>
         </Link>
       </li>
       <li>

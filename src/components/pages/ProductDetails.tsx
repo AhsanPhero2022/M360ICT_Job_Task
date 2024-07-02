@@ -31,13 +31,9 @@ const ProductDetail: React.FC = () => {
     >
       <Card
         title={data?.title}
-        extra={<Button onClick={() => navigate("/")}>Back to Products</Button>}
         style={{ width: "100%" }}
         actions={[
-          <Button
-            type="primary"
-            onClick={() => navigate(`/edit-product/${id}`)}
-          >
+          <Button type="primary" onClick={() => navigate(`/editProduct/${id}`)}>
             Edit Product
           </Button>,
         ]}
