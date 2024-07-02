@@ -23,7 +23,7 @@ const services = [
 
 const OtherServices = () => {
   return (
-    <div className="lg:mx-30 md:mx-16 my-8">
+    <div className="lg:mx-28 md:mx-16 my-8">
       <h1 className="my-16 text-center text-[40px] font-semibold">
         Other Services
       </h1>

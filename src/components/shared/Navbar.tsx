@@ -19,11 +19,6 @@ const Navbar = () => {
           <Button>Category List</Button>
         </Link>
       </li>
-      <li>
-        <Link to="/">
-          <Button>Home</Button>
-        </Link>
-      </li>
     </div>
   );
   return (

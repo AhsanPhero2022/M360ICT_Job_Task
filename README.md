@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+## React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# M360ICTTask
 
-Currently, two official plugins are available:
+### Project overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-- In this project, first of all, you will see a landing page for understanding of the company and the employees. Then you will see a list of products in the navbar. Then you will able to change routes and see the products items, categories and also you can update the products information
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone https://github.com/AhsanPhero2022/M360ICT_Job_Task.git
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Navigate to the project directory:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   cd M360ICT_Job_Task
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Running the Application Locally To run the application locally. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Technologies Used
+
+- React + vite
+- TypeScript
+- Ant Design
+- Tailwind
+- React Hook Form
+- Redux Toolkit
+- RTK Query
+
+## Live Link:
