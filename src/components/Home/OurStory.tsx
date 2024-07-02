@@ -27,7 +27,7 @@ const OurStory = () => {
           </div>
 
           {/* Card */}
-          <div className="absolute top-[313px] left-[50%] transform lg:left-[315px] lg:-translate-x-0 w-full md:w-[592px] bg-[#ECF5FF] p-[32px]">
+          <div className="absolute top-[313px] left-[50%] transform lg:left-[315px]  w-full md:w-[592px] bg-[#ECF5FF] p-[32px]">
             <div className="flex items-center space-x-[16px] mb-[16px]">
               <div className="w-[51px] border-t-[4px] border-[#EE6611]"></div>
               <div className="text-[#EE6611] font-poppins text-[18px] font-semibold leading-[21.6px]">
@@ -50,14 +50,14 @@ const OurStory = () => {
               <img
                 src={missionStatement}
                 alt="Mission Statement"
-                className="absolute top-0 left-0  lg:left-[200px] xl:left-[400px] w-full h-full object-cover"
+                className="absolute top-0 left-0  lg:left-[200px]  w-full h-full object-cover"
               />
 
               {/* Inside Image */}
               <img
                 src={ourStory}
                 alt="Inside"
-                className="absolute top-[195px] left-[150px] md:left-[400px] lg:left-[500px] xl:left-[719px] w-[70.04px] h-[64px] object-cover"
+                className="absolute top-[195px] left-[150px] md:left-[400px] lg:left-[500px]  w-[70.04px] h-[64px] object-cover"
               />
 
               {/* Card */}
